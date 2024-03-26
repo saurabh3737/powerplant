@@ -1,17 +1,19 @@
-create virtual environment
+# Create virtual environment
+
 python -m venv env
 source env/bin/activate
-# set up pre-requisites
+
+# Set up pre-requisites
 pip install -r requirement.txt
 
-# how to run the project path
+# How to run the project path
 cd powerplant-coding-challenge
 for example
 C:\Users\saura\powerplant-coding-challenge>
 
-# run the run.py file using your python interpreter
+# Run the run.py file using your python interpreter
 
-sample output
+**sample output**
 C:\Users\saura\powerplant-coding-challenge>python run.py
  * Serving Flask app 'run'
  * Debug mode: on
