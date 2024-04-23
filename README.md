@@ -63,14 +63,6 @@ For a submission to be reviewed as part of an application for a position in the 
 
 Failing to comply with any of these criteria will automatically disqualify the submission.
 
-## More info
-
-For more info on energy management, check out:
-
- - [Global Energy Management Solutions](https://www.youtube.com/watch?v=SAop0RSGdHM)
- - [COO hydroelectric power station](https://www.youtube.com/watch?v=edamsBppnlg)
- - [Management of supply](https://www.youtube.com/watch?v=eh6IIQeeX3c) - video made during winter 2018-2019
-
 ## FAQ
 
 ##### Can an existing solver be used to calculate the unit-commitment
