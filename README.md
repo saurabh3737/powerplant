@@ -1,30 +1,12 @@
-# powerplant-coding-challenge
+# Powerplant-Coding-Challenge
 
 
-## Welcome !
+## Welcome to The challenge
 
-Below you can find the description of a coding challenge that we ask people to perform when applying for a job in our team.
-
-The goal of this coding challenge is to provide the applicant some insight into the business we're in and as such provide the applicant an indication about the challenges she/he will be confronted with. Next, during the first interview we will use the applicant's implementation as a seed to discuss all kinds of interesting software engineering topics.  
-
-Time is scarce, we know. Therefore we ask you not to spend more than 4 hours on this challenge. We know it is not possible to deliver a finished implementation of the challenge in only four hours. Even though your submission will not be complete, it will provide us plenty of information and topics to discuss later on during the talks.
-
-This coding-challenge is part of a formal process and is used in collaboration with the recruiting companies we work with.  Submitting a pull-request will not automatically trigger the recruitement process.
-## Who are we 
-
-We are the IS team of the 'Short-term Power as-a-Service' (a.k.a. SPaaS) team within [GEM](https://gems.engie.com/).
-
-[GEM](https://gems.engie.com/), which stands for 'Global Energy Management', is the energy management arm of [ENGIE](https://www.engie.com/), one of the largest global energy players, 
-with access to local markets all over the world.  
-
-SPaaS is a team consisting of around 100 people with experience in energy markets, IT and modeling. In smaller teams consisting of a mix of people with different experiences, we are active on the [day-ahead](https://en.wikipedia.org/wiki/European_Power_Exchange#Day-ahead_markets) market, [intraday markets](https://en.wikipedia.org/wiki/European_Power_Exchange#Intraday_markets) and [collaborate with the TSO to balance the grid continuously](https://en.wikipedia.org/wiki/Transmission_system_operator#Electricity_market_operations).
-
-## The challenge
-
-### In short
+### Objective
 Calculate how much power each of a multitude of different [powerplants](https://en.wikipedia.org/wiki/Power_station) need to produce (a.k.a. the production-plan) when the [load](https://en.wikipedia.org/wiki/Load_profile) is given and taking into account the cost of the underlying energy sources (gas,  kerosine) and the Pmin and Pmax of each powerplant.
 
-### More in detail
+### Description
 
 The load is the continuous demand of power. The total load at each moment in time is forecasted. For instance for Belgium you can see the load forecasted by the grid operator [here](https://www.elia.be/en/grid-data/load-and-load-forecasts).
 
@@ -39,9 +21,6 @@ Build a REST API exposing an endpoint `/productionplan` that accepts a POST of w
 
 For calculating the unit-commitment, we prefer you not to rely on an existing (linear-programming) solver but instead write an algorithm yourself.
 
-Implementations can be submitted in either C# (on .Net 5 or higher) or Python (3.8 or higher) as these are (currently) the main languages we use in SPaaS. Along with the implementation should be a README that describes how to compile (if applicable) and launch the application.
-
-- C# implementations should contain a project file to compile the application. 
 - Python implementations should contain a `requirements.txt` or a `pyproject.toml` (for use with poetry) to install all needed dependencies.
 
 #### Payload
