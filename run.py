@@ -4,7 +4,7 @@ import traceback
 from flask import Flask, render_template, request, make_response, jsonify
 
 from config.config import API_PORT
-from engie.base_prod_plan import ProductionPlanCalculator
+from energy.base_prod_plan import ProductionPlanCalculator
 import json
 app = Flask(__name__)
 
