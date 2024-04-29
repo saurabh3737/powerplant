@@ -1,4 +1,4 @@
-from engie.constants import FUEL_POWERPLANT_MAPPING, GAS, KEROSINE, WIND
+from energy.constants import FUEL_POWERPLANT_MAPPING, GAS, KEROSINE, WIND
 
 class ProductionPlanCalculator:
     """
